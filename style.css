@@ -1,0 +1,54 @@
+body{
+    background: url(fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    width: 250px;
+    height: 300px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#buttons > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar {
+    font-size: 0.875rem;
+    height: 80px;
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+p{
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+#logo{
+    height: 30px;
+    width: 30px;
+}
+.navbar-brand {
+    font-size: 1rem;
+}
+#submit{
+    height: 40px;
+}
+.navbar-toggler{
+    height: 40px;
+    width: 80px;
+}
+.container-fluid{
+    background: black;
+    padding: 10px;
+}

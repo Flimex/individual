@@ -1,0 +1,157 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#game{
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#user{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#generate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:500px;
+    margin: 2%;
+}
+#generateBut{
+    width:100%;
+}
+p{
+    text-align: center;
+    font-size:40px;
+}
+#name1{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+#name2{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+#finish{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+#scoreNum1{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+#scoreNum2{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+#generateBut{
+    background: yellow;
+    color:black;
+    font-size: 60px;
+    width:400px;
+}
+img{
+    height: 300px;
+    width: 200px;
+}
+#photoContainer{
+    margin: 2%;
+}
+#photoContainer img {
+    width: 500px;
+    height: auto;
+}  
+@media (min-width: 576px){
+    img{
+        height: 150px;
+        width: 100px;
+    }
+    p{
+        text-align: center;
+        font-size:20px;
+    }
+    #generateBut{
+        background: yellow;
+        color:black;
+        font-size: 40px;
+        width:200px;
+    }
+    #photoContainer img {
+        width: 200px;
+        height: auto;
+    }  
+} 
+@media (min-width: 768px) {
+    img{
+        height: 200px;
+        width: 100px;
+    }
+    p{
+        text-align: center;
+        font-size:20px;
+    }
+    #generateBut{
+        background: yellow;
+        color:black;
+        font-size: 40px;
+        width:300px;
+    }
+    #photoContainer img {
+        width: 300px;
+        height: auto;
+    }  
+}
+@media (min-width: 992px) {
+    img{
+        height: 250px;
+        width: 150px;
+    }
+    p{
+        text-align: center;
+        font-size:40px;
+    }
+    #generateBut{
+        background: yellow;
+        color:black;
+        font-size: 40px;
+        width:300px;
+    }
+    #photoContainer img {
+        width: 400px;
+        height: auto;
+    }  
+}
+@media (min-width: 1200px) {
+    img{
+        height: 300px;
+        width: 200px;
+    }
+    p{
+        text-align: center;
+        font-size:50px;
+    }
+    #generateBut{
+        background: yellow;
+        color:black;
+        font-size: 50px;
+        width:400px;
+    }
+    #photoContainer img {
+        width: 500px;
+        height: auto;
+    }  
+}

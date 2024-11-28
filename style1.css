@@ -1,0 +1,71 @@
+body{
+  
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#game{
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#user{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.generate{
+    width:200px;
+}
+#generateBut{
+    width:100%;
+}
+p{
+    text-align: center;
+    font-size:60px;
+}
+#name1{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+#name2{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+#finish{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+#scoreNum1{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+#scoreNum2{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+#generateBut{
+    background: green;
+    color:black;
+    font-size: 60px;
+    width:400px;
+}
+img{
+    height: 80%;
+    width: 80%;
+}
+.btn{
+    height: 40px;
+}

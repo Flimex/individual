@@ -1,0 +1,21 @@
+const button = document.createElement('button');
+button.textContent = 'Дізнатися';
+button.classList.add('button');
+addEventListener('button', function(event) {
+const container = document.createElement('div');
+container.classList.add('container');
+const question = document.createElement('div');
+question.classList.add('question');
+question.textContent = 'Чи буде завтра сонячно?';
+const crystalBall = document.createElement('div');
+crystalBall.classList.add('crystal-ball');
+const answer = document.createElement('div');
+answer.classList.add('answer');
+const answers = ['Так', 'Ні', 'Можливо', 'Полюбому'];
+answer.textContent = answers[Math.floor(Math.random() * answers.length)];
+crystalBall.appendChild(answer);
+container.appendChild(question);
+container.appendChild(crystalBall);
+container.appendChild(button);
+document.body.appendChild(container);
+});

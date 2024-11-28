@@ -1,0 +1,398 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background: url(fon.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+#game{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.slots{
+    background: url(slots.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height:700px;
+    display: flex;
+    justify-content: space-between, center;
+    align-items: center;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    margin: 10px;
+    width:200px;
+    height: 50px;
+}
+#first{
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100px;
+    width:100px;
+    margin-left: 21%;
+    margin-top: 32%;
+}
+#second{
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100px;
+    width:100px;
+    margin-top: 32%;
+    margin-left: 3%;
+}
+#third{
+    background-repeat: no-repeat;
+    height: 100px;
+    width:100px;
+    margin-top: 32%;
+    margin-left: 2%;
+}
+#generateBut{
+    font-size: 20px;
+    background-color: black;
+    color: green;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    color:white;
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#again{
+    font-size: 20px;
+    background-color: black;
+    color: green;
+}
+@media (min-width: 568px){
+    .slots{
+        background: url(slots.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height:400px;
+        display: flex;
+        justify-content: space-between, center;
+        align-items: center;
+    }
+    #buttons{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
+    }
+    button{
+        flex: 1 1 50%;
+    }
+    #info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+        color:white;
+        border-radius: 5px;
+        background-color: black;
+        padding: 10px;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    div>img{
+        height: 40px;
+        width: 40px;
+    }
+    #first{
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:40px;
+        width:40px;
+        margin-left: 31%;
+        margin-top: 32%;
+    }
+    #second{
+        position: relative;
+        background-repeat: no-repeat;
+        height: 40px;
+        width:40px;
+        margin-top: 32%;
+        margin-left: 9%;
+    }
+    #third{
+        background-repeat: no-repeat;
+        height:40px;
+        width:40px;
+        margin-top: 32%;
+        margin-left:9%;
+    }
+}
+@media (min-width: 732px){
+    .slots{
+        background: url(slots.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height:400px;
+        display: flex;
+        justify-content: space-between, center;
+        align-items: center;
+    }
+    #buttons{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
+    }
+    button{
+        flex: 1 1 50%;
+    }
+    #info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+        color:white;
+        border-radius: 5px;
+        background-color: black;
+        padding: 10px;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    div>img{
+        height: 40px;
+        width: 40px;
+    }
+    #first{
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:40px;
+        width:40px;
+        margin-left: 25%;
+        margin-top: 28%;
+    }
+    #second{
+        position: relative;
+        background-repeat: no-repeat;
+        height: 40px;
+        width:40px;
+        margin-top: 28%;
+        margin-left: 8%;
+    }
+    #third{
+        background-repeat: no-repeat;
+        height:40px;
+        width:40px;
+        margin-top: 28%;
+        margin-left:8%;
+    }
+}
+@media (min-width: 768px) {
+    .slots{
+        background: url(slots.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 350px;
+        height:450px;
+        display: flex;
+        justify-content: space-between, center;
+        align-items: center;
+    }
+
+    h2{
+        font-size: 40px;
+        text-align: center;
+        color:white;
+        border-radius: 5px;
+        background-color: black;
+        padding: 10px;
+    }
+    p{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    div>img{
+        height: 60px;
+        width: 60px;
+    }
+    #first{
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:60px;
+        width:60px;
+        margin-left: 22%;
+        margin-top: 28%;
+    }
+    #second{
+        position: relative;
+        background-repeat: no-repeat;
+        height: 60px;
+        width:60px;
+        margin-top: 28%;
+        margin-left: 3.5%;
+    }
+    #third{
+        background-repeat: no-repeat;
+        height:60px;
+        width:60px;
+        margin-top: 28%;
+        margin-left:3.5%;
+    }
+}
+@media (min-width: 992px) {
+    .slots{
+        background: url(slots.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height:600px;
+        display: flex;
+        justify-content: space-between, center;
+        align-items: center;
+    }
+    h2{
+        font-size: 50px;
+        text-align: center;
+        color:white;
+        border-radius: 5px;
+        background-color: black;
+        padding: 10px;
+    }
+    p{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    div>img{
+        height: 80px;
+        width: 80px;
+    }
+    #first{
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:80px;
+        width:80px;
+        margin-left: 21%;
+        margin-top: 27%;
+    }
+    #second{
+        position: relative;
+        background-repeat: no-repeat;
+        height: 80px;
+        width:80px;
+        margin-top: 27%;
+        margin-left: 3%;
+    }
+    #third{
+        background-repeat: no-repeat;
+        height:80px;
+        width:80px;
+        margin-top: 27%;
+        margin-left:3%;
+    }
+}
+@media (min-width: 1200px) {
+    .slots{
+        background: url(slots.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 600px;
+        height:700px;
+        display: flex;
+        justify-content: space-between, center;
+        align-items: center;
+    }
+    h2{
+        font-size: 50px;
+        text-align: center;
+        color:white;
+        border-radius: 5px;
+        background-color: black;
+        padding: 10px;
+    }
+    p{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #first{
+        position: relative;
+        background-repeat: no-repeat;
+        height: 100px;
+        width:100px;
+        margin-left: 21%;
+        margin-top: 32%;
+    }
+    #second{
+        position: relative;
+        background-repeat: no-repeat;
+        height: 100px;
+        width:100px;
+        margin-top: 32%;
+        margin-left: 3%;
+    }
+    #third{
+        background-repeat: no-repeat;
+        height: 100px;
+        width:100px;
+        margin-top: 32%;
+        margin-left: 2%;
+    }
+}
